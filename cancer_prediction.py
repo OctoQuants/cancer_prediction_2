@@ -9,7 +9,7 @@ import pickle
 
 model = pickle.load(open("estimator_pl.pkl","rb"))
 
-#st.image(r"innomatics_logo.png")
+st.image(r"innomatics_logo.png")
 
 st.title("Cancer Prediction Project")
 
